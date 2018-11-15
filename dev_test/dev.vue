@@ -8,7 +8,7 @@
 export default {
     data() {
         return {
-            content: '这是一条很长很长的通知消息啊，你收到了吗？',
+            content: '这是这是一条很长很长的通知消息啊，你收到了吗？',
         }
     }
 }

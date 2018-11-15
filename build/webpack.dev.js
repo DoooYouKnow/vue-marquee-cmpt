@@ -12,7 +12,7 @@ module.exports = {
     devtool: '#eval-source-map',
     entry: resolve("dev_test/index.js"),
 	output: {
-		path: resolve("dev_dist"),
+		path: resolve("dist"),
 		filename: "bundle.js"
 	},
 	resolve: {
@@ -43,7 +43,7 @@ module.exports = {
         new webpack.HotModuleReplacementPlugin(),
 	],
 	devServer: {
-        contentBase: resolve("dev_dist"),
+        contentBase: resolve("dist"),
         host: 'localhost',
         port: 9999,
 		inline: true,
