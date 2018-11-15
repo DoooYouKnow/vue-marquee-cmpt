@@ -1,14 +1,21 @@
 {
 	"name": "vue-marquee-cmpt",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "一个简单的vue跑马灯效果组件",
 	"main": "index.js",
 	"scripts": {
 		"dev": "npm run test && npm run start",
-        "build": "cross-env NODE_ENV=production webpack --config build/webpack.dist.js",
-        "test": "cross-env NODE_ENV=production webpack --config build/webpack.dev.js",
-        "start": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.dev.js --open --inline --hot"
+		"build": "cross-env NODE_ENV=production webpack --config build/webpack.dist.js",
+		"test": "cross-env NODE_ENV=production webpack --config build/webpack.dev.js",
+		"start": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.dev.js --open --inline --hot"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/DoooYouKnow/vue-marquee-cmpt"
+	},
+	"keywords": [
+		"通知消息滚动组件"
+	],
 	"author": "yangguang",
 	"license": "ISC",
 	"devDependencies": {
